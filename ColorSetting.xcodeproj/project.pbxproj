@@ -13,6 +13,7 @@
 		FDDF783525D7C52A00140DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDF783325D7C52A00140DEC /* Main.storyboard */; };
 		FDDF783725D7C52A00140DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDF783625D7C52A00140DEC /* Assets.xcassets */; };
 		FDDF783A25D7C52A00140DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDF783825D7C52A00140DEC /* LaunchScreen.storyboard */; };
+		FDDF784425D7C6BE00140DEC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF784325D7C6BE00140DEC /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDDF783625D7C52A00140DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDF783925D7C52A00140DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDDF783B25D7C52A00140DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDF784325D7C6BE00140DEC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FDDF782F25D7C52A00140DEC /* SceneDelegate.swift */,
 				FDDF783125D7C52A00140DEC /* ViewController.swift */,
 				FDDF783325D7C52A00140DEC /* Main.storyboard */,
+				FDDF784325D7C6BE00140DEC /* SettingViewController.swift */,
 				FDDF783625D7C52A00140DEC /* Assets.xcassets */,
 				FDDF783825D7C52A00140DEC /* LaunchScreen.storyboard */,
 				FDDF783B25D7C52A00140DEC /* Info.plist */,
@@ -140,6 +143,7 @@
 				FDDF783225D7C52A00140DEC /* ViewController.swift in Sources */,
 				FDDF782E25D7C52A00140DEC /* AppDelegate.swift in Sources */,
 				FDDF783025D7C52A00140DEC /* SceneDelegate.swift in Sources */,
+				FDDF784425D7C6BE00140DEC /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
